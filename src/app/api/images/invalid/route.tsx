@@ -42,7 +42,7 @@ export async function GET() {
               fontSize: 128,
             }}
           >
-            You Lose 😭 . Better Luck next Time
+            😭 following directions is hard
           </div>
         </div>
       </div>

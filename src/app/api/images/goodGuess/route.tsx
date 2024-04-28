@@ -35,14 +35,14 @@ export async function GET() {
               fontSize: 96,
             }}
           >
-            Guess the price change
+            Your guess has been recorded
           </div>
           <div
             style={{
               fontSize: 128,
             }}
           >
-            Hurray 🎉 ! You won.
+            Tokens will be transfered if you win.
           </div>
         </div>
       </div>
