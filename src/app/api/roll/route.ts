@@ -79,22 +79,21 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           <meta name="of:button:1:action" content="link" />
           <meta name="of:button:1:target" content="https://github.com/LeoFranklin015/XMTP-frames" />
 
+          <meta name="of:frame:button:1" content="source" />
+          <meta name="of:frame:button:1:action" content="post" />
+          <meta name="of:frame:button:1:target" content="${postUrl}" />
+      
+          <meta name="fc:frame:button:1" content="Start over" />
+          <meta name="fc:frame:button:1:action" content="post" />
+          <meta name="fc:frame:button:1:target" content="${postUrl}" />
+          
+          <meta name="of:button:2" content="source code" />
+          <meta name="of:button:2:action" content="link" />
+          <meta name="of:button:2:target" content="https://github.com/LeoFranklin015/XMTP-frames" />
 
-          <meta name="of:button:1" content="source code" />
-          <meta name="of:button:1:action" content="link" />
-          <meta name="of:button:1:target" content="https://github.com/LeoFranklin015/XMTP-frames" />
-
-          <meta name="fc:frame:button:2" content="Start over" />
+          <meta name="fc:frame:button:2" content="source code" />
           <meta name="fc:frame:button:2:action" content="link" />
-          <meta name="fc:frame:button:2:target" content="start" />
-       
-          <meta name="of:frame:button:2" content="Start over" />
-          <meta name="of:frame:button:2:action" content="link" />
-          <meta name="of:frame:button:2:target" content="start" />
-       
-          <meta name="fc:frame:button:1" content="source code" />
-          <meta name="fc:frame:button:1:action" content="link" />
-          <meta name="fc:frame:button:1:target" content="https://github.com/LeoFranklin015/XMTP-frames" />
+          <meta name="fc:frame:button:2:target" content="https://github.com/LeoFranklin015/XMTP-frames" />
         </head>
         <body/>
       </html>`,
