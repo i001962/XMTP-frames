@@ -6,7 +6,7 @@ export default function Xmtp() {
         className="margin-auto"
         src="https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/2639523a-690b-47af-16ab-ca07697fd000/original"
       /> */}
-      <h1 className="text-8xl font-bold">Roll the Dice to win</h1>
+      <h1 className="text-8xl font-bold">Guess the price to win</h1>
     </div>
   );
 }

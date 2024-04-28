@@ -26,7 +26,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           <meta name= "of:post_url" content="${postUrl}" />
           <meta name= "of:image" content="${imageUrl}" />
           <meta name="of:input:text" content="Enter 1-6" />
-          <meta name="of:button:1" content="Roll 🎲" />
+          <meta name="of:button:1" content="Guess again" />
           <meta name="of:button:1:action" content="post" />
           <meta name="of:button:1:target" content="https://xmtp-frames.vercel.app/api/roll" />
          

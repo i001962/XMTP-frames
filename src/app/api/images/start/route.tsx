@@ -35,14 +35,14 @@ export async function GET() {
               fontSize: 128,
             }}
           >
-            Roll the dice 🎲
+            What % will DEGEN move in the next month?
           </div>
           <div
             style={{
               fontSize: 96,
             }}
           >
-            If the dice matches, you win; otherwise, you lose.
+            Closest to actual wins.
           </div>
         </div>
       </div>

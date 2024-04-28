@@ -7,10 +7,10 @@ const postUrl = `${NEXT_PUBLIC_URL}/api/roll`;
 export async function generateMetadata(): Promise<Metadata> {
   const imageUrl = `${NEXT_PUBLIC_URL}/api/images/start`;
   return {
-    title: "Roll the Dice",
-    description: "Roll the dice and if it matches You win",
+    title: "Guess the price of DEGEN in the next month",
+    description: "Enter the increase or decrease % change for May. Closest to wins.",
     openGraph: {
-      title: "Roll the Dice",
+      title: "Guess the price",
       images: [imageUrl],
     },
     other: {
