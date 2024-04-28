@@ -34,12 +34,12 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           <meta name="fc:frame:image" content="${imageUrl}" />
 
           <meta name="of:frame:button:1" content="source" />
-          <meta name="of:frame:button:1:action" content="link" />
-          <meta name="of:frame:button:1:target" content="start" />
+          <meta name="of:frame:button:1:action" content="post" />
+          <meta name="of:frame:button:1:target" content="${postUrl}start" />
       
           <meta name="fc:frame:button:1" content="source" />
-          <meta name="fc:frame:button:1:action" content="link" />
-          <meta name="fc:frame:button:1:target" content="start" />
+          <meta name="fc:frame:button:1:action" content="post" />
+          <meta name="fc:frame:button:1:target" content="${postUrl}start" />
       
           <meta name="of:button:2" content="source code" />
           <meta name="of:button:2:action" content="link" />
