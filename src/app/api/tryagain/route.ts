@@ -35,7 +35,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           <meta name="fc:frame" content="vNext" />
           <meta name="fc:frame:post_url" content="${postUrl}" />
           <meta name="fc:frame:image" content="${imageUrl}" />
-          <meta name="fc:frame:text" content="Enter 1-6" />
+          <meta name="fc:frame:text" content="Enter percentage as an integrer between -99 and 10,000" />
           
           <meta name="fc:frame:button:1" content="Roll 🎲" />
           <meta name="fc:frame:button:1:action" content="post" />
