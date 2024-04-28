@@ -15,7 +15,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     `<!DOCTYPE html>
       <html>
         <head>
-          <title>Echo Says:</title>
+          <title>Try again</title>
           <meta property="og:title" content="Guess the price" />
           <meta property="og:image" content="${imageUrl}" />
 
@@ -25,7 +25,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           <meta name= "of:accepts:xmtp" content="2024-02-01"/>
           <meta name= "of:post_url" content="${postUrl}" />
           <meta name= "of:image" content="${imageUrl}" />
-          <meta name="of:input:text" content="Enter 1-6" />
+          <meta name="of:input:text" content="Enter integer between -99 & 10k" />
           <meta name="of:button:1" content="Guess again" />
           <meta name="of:button:1:action" content="post" />
           <meta name="of:button:1:target" content="https://xmtp-frames.vercel.app/api/roll" />
@@ -37,7 +37,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           <meta name="fc:frame:image" content="${imageUrl}" />
           <meta name="fc:frame:text" content="Enter percentage as an integrer between -99 and 10,000" />
           
-          <meta name="fc:frame:button:1" content="Roll 🎲" />
+          <meta name="fc:frame:button:1" content="Start over" />
           <meta name="fc:frame:button:1:action" content="post" />
           <meta name="fc:frame:button:1:target" content="https://xmtp-frames.vercel.app/api/roll" />
           

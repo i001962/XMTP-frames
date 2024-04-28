@@ -35,11 +35,11 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
           <meta name="of:frame:button:1" content="source" />
           <meta name="of:frame:button:1:action" content="post" />
-          <meta name="of:frame:button:1:target" content="${postUrl}api/images/start" />
+          <meta name="of:frame:button:1:target" content="${postUrl}" />
       
           <meta name="fc:frame:button:1" content="Start over" />
           <meta name="fc:frame:button:1:action" content="post" />
-          <meta name="fc:frame:button:1:target" content="${postUrl}api/images/start" />
+          <meta name="fc:frame:button:1:target" content="${postUrl}" />
       
           <meta name="of:button:2" content="source code" />
           <meta name="of:button:2:action" content="link" />

@@ -35,14 +35,14 @@ export async function GET() {
               fontSize: 96,
             }}
           >
-            Guess the price
+            Is following directions that hard?
           </div>
           <div
             style={{
               fontSize: 128,
             }}
           >
-            😭 following directions is hard
+            😭 enter numbers
           </div>
         </div>
       </div>
