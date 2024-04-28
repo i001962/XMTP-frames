@@ -35,7 +35,7 @@ export async function GET() {
               fontSize: 96,
             }}
           >
-            Roll the dice 🎲
+            Guess the price change
           </div>
           <div
             style={{

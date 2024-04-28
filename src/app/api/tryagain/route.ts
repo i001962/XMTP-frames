@@ -16,7 +16,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
       <html>
         <head>
           <title>Echo Says:</title>
-          <meta property="og:title" content="Roll the dice" />
+          <meta property="og:title" content="Guess the price" />
           <meta property="og:image" content="${imageUrl}" />
 
         
