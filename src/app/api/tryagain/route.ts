@@ -28,9 +28,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           <meta name="of:input:text" content="Enter integer between -99 & 10k" />
           <meta name="of:button:1" content="Guess again" />
           <meta name="of:button:1:action" content="post" />
-          <meta name="of:button:1:target" content="https://xmtp-frames.vercel.app/api/roll" />
-         
-
+          <meta name="of:button:1:target" content="${postUrl}" />
 
           <meta name="fc:frame" content="vNext" />
           <meta name="fc:frame:post_url" content="${postUrl}" />
@@ -39,7 +37,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           
           <meta name="fc:frame:button:1" content="Start over" />
           <meta name="fc:frame:button:1:action" content="post" />
-          <meta name="fc:frame:button:1:target" content="https://xmtp-frames.vercel.app/api/roll" />
+          <meta name="fc:frame:button:1:target" content="${postUrl}" />
           
         </head>
         <body/>

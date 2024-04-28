@@ -33,13 +33,13 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           <meta name="fc:frame:post_url" content="${postUrl}" />
           <meta name="fc:frame:image" content="${imageUrl}" />
 
-          <meta name="of:frame:button:1" content="source" />
+          <meta name="of:frame:button:1" content="Start over" />
           <meta name="of:frame:button:1:action" content="post" />
-          <meta name="of:frame:button:1:target" content="${postUrl}" />
+          <meta name="of:frame:button:1:target" content="${postUrl}/api/roll" />
       
           <meta name="fc:frame:button:1" content="Start over" />
           <meta name="fc:frame:button:1:action" content="post" />
-          <meta name="fc:frame:button:1:target" content="${postUrl}" />
+          <meta name="fc:frame:button:1:target" content="${postUrl}/api/roll" />
       
           <meta name="of:button:2" content="source code" />
           <meta name="of:button:2:action" content="link" />
@@ -60,7 +60,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
     );
   } else {
     const imageUrl = `${NEXT_PUBLIC_URL}/api/images/goodGuess`;
-    const urlStartOver = `${NEXT_PUBLIC_URL}/api/roll`;
+    const urlStartOver = `${NEXT_PUBLIC_URL}`;
     return new NextResponse(
       `<!DOCTYPE html>
       <html>
